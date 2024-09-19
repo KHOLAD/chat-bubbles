@@ -9,6 +9,7 @@ body {
   height: 100vh;
   flex-direction: column;
   padding: 10px;
+  overflow: hidden;
 }
 
 .chat-container {
