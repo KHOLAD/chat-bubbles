@@ -8,7 +8,6 @@ body {
   align-items: center;
   height: 100vh;
   flex-direction: column;
-  padding: 10px;
   overflow: hidden;
 }
 
@@ -23,9 +22,10 @@ body {
 }
 
 .chat-box {
+  box-sizing: border-box;
   flex: 1;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
@@ -36,10 +36,10 @@ body {
 
 .chat-bubble {
   padding: 10px;
-  font-size: 20px;
+  font-size: 22px;
   background-color: white;
-  border-radius: 15px;
-  max-width: 250px; 
+  border-radius: 20px;
+  max-width: 300px; 
   word-break: break-all;
   line-height: 1.4;
   align-self: flex-start;
@@ -49,8 +49,9 @@ body {
 }
 
 .chat-bubble.show {
-  opacity: 1; /* Fully visible */
+  opacity: 1;
 }
+
 
 @keyframes fadeOut {
   from {

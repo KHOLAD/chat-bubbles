@@ -1,6 +1,6 @@
 const chatInput = document.getElementById("chat-input");
 const chatBox = document.getElementById("chat-box");
-const REMOVE_TIMEOUT = 5000;
+const REMOVE_TIMEOUT = 7000;
 
 let typingBubble; // To keep track of the current typing bubble
 
